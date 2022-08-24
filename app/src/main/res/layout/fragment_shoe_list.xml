@@ -8,10 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- ScrollView to allow user scroll views down and up if the screen is small-->
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <!-- LinearLayout to make views vertical or horizontal order-->
             <LinearLayout
                 android:id="@+id/linearLayoutShoeList"
                 android:layout_width="match_parent"
